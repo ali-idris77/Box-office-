@@ -1,0 +1,286 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    flex-wrap: nowrap;
+    background: rgba(128, 128, 128, 0.199);
+
+}
+#div1{
+    width: 1100px;
+    height: 140px;
+    background: rgb(77, 78, 77);
+}
+.max{
+    display: flex;
+    flex-direction: row;
+}
+.other1{
+    display: block;
+    
+}
+/* input{
+    width: 10cm;
+    height: 30px;
+    border-radius: 6px;
+    border-width: 1px;
+    outline: none;
+    margin-top: 35px;
+    margin-left: 150px;
+    padding-left: 10px; */
+
+#qwe{
+    height: 100px;
+    width: 200px;
+    /* margin-left: 100px; */
+    position: relative;
+    left: 117px;
+}
+.min{
+    margin-bottom: 10px;
+    height:100px;
+}
+nav{
+    background: black;
+    height:30px;
+    padding-top: 5px ;
+}
+.navd{
+    width: 100px;
+    height: 50px;
+}
+.nav{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;    
+    height: 50px;  
+}
+#udc{
+    height: 30px;
+    background: white;
+    padding-top: 5px;
+    box-shadow: 0 4px 0 rgba(186, 187, 181, 0.6);
+    margin-bottom: 10px;
+}
+.udc{
+    margin-left: 20px;
+    color: black;
+}
+#container{
+    width: 1100px;
+    height: 2220px;
+    display: flex;
+    flex-direction: column;
+    border:1px solid ;
+    background: white;
+}
+.cont2{
+    display: flex;
+    flex-direction: column;
+
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+#div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.div2{
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+} 
+#div3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.div3{
+    border: 1px solid;
+    border-radius: 5px;
+    height: 310px;
+    width: 350px;  
+} 
+.alp1 {
+    border: 1px solid;
+    border-radius: 5px;
+    height: 435px;
+    width: 720px;
+    margin: 10px;
+}
+#div4{
+    display: flex;
+    flex-direction: row;
+}
+.div4a {
+    border: 1px solid;
+    border-radius: 5px;
+    height: 310px;
+    width: 350px;
+    margin: 10px;
+}
+#t4a{
+    width: 348px;
+}
+.div4b {
+    border: 1px solid;
+    border-radius: 5px;
+    height: 310px;
+    width: 350px;
+    margin: 10px;
+}
+#t4b{
+    width: 348px;
+}
+#div5{
+    display: flex;
+    flex-direction: row;
+}
+.div5 {
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+    height: 320px;
+    width: 350px;
+    text-align: center;
+}
+#div6{
+    display: flex;
+    flex-direction: row;
+}
+.div6{
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+    height: 320px;
+    width: 350px;
+    text-align: center;
+}
+#div2a{
+    height:300px;
+    width: 280px;
+    padding: 10px;
+}
+#div2b{
+    width: 280px;
+    height:1550px;
+    padding: 10px;
+}
+.img{
+    width: 250px;
+    height: 230px;
+}
+a{
+    text-decoration: none;
+    color: rgb(48, 167, 155);
+}
+.tab1{
+    border-collapse: collapse;   
+}
+.tab2{
+    border-collapse: collapse;
+    width: 718px; 
+}
+.tab1 td{
+  padding: 10px;
+  border: 0;
+  border-bottom: 1px solid; 
+}
+.tab1 .last{
+    border: 1px solid white;
+}
+.tab2 td{
+    padding: 10px;
+    border: 0;
+    border-bottom: 1px solid; 
+  }
+  .tab2 .last{
+    border: 1px solid white;
+}
+.tab1 th{
+    border-bottom: 1px solid ;
+}
+.tab2 th{
+    border-bottom: 1px solid ;
+}
+  table{
+   outline: none;
+  }
+.tab1 tr:nth-child(even){
+background-color: #f2f2f2;  
+}
+.tab2 tr:nth-child(even){
+    background-color: #f2f2f2;     
+    }
+table tr{
+    text-align: left;
+}
+table td {
+    text-align: left;
+    
+}
+footer{
+    text-align: center;
+    width: 1100px;
+    height: fit-content;
+    color: white;
+    background:  rgb(77, 78, 77);
+}
+.fut{
+    color: white;
+    border-left: 2px solid white;
+    padding-left: 7px;
+}
+#fut{
+    border-left: none;
+}
+footer{
+    position: relative;
+    z-index: 1;
+}
+*{
+    box-sizing: border-box;
+}
+form.example {
+    position: relative;
+    top: 35px;
+    left: 60px;
+    width: 15cm;
+    border-radius: 10px;
+}
+form.example input[type="text"] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 90%;
+    border-radius: 7px 0 0 7px;
+} 
+form.example button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+background: orange;
+font-size: 17px;
+border: 1px solid grey;
+border-left: none;
+border-radius: 0 7px 7px 0;
+cursor: pointer;
+}
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.imd{
+    float: left;
+    position: relative;
+    left: 1010px;
+    top: 10px;
+}
